@@ -22,6 +22,21 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <12 13>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <18 19>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <10 11>;
+        };
     };
 
     macros {
