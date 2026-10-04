@@ -39,7 +39,7 @@
         };
 
         layer6 {
-            bindings = <&mo 5>;
+            bindings = <&mo 6>;
             key-positions = <38 41>;
         };
 
@@ -113,7 +113,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W               &kp E           &kp R             &kp T                                     &kp Y  &kp U              &kp I            &kp O    &kp P
-&kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G  &mkp RCLK          &kp UP_ARROW    &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &lt 3 L  &lt 4 MINUS
+&kp A             &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_SHIFT F  &kp G  &mkp RCLK          &kp UP_ARROW    &kp H  &mt RIGHT_SHIFT J  &mt RIGHT_ALT K  &lt 3 L  &lt 5 MINUS
 &mt LEFT_SHIFT Z  &mt LEFT_GUI X      &kp C           &kp V             &kp B  &mkp LCLK          &kp DOWN_ARROW  &kp N  &kp M              &kp COMMA        &kp DOT  &mt LEFT_SHIFT SLASH
 &kp LCTRL         &kp LEFT_WIN        &kp LEFT_ALT    &kp ENTER         &mo 1  &kp BACKSPACE      &kp SPACE       &mo 2                                               &kp DEL
             >;
@@ -144,9 +144,18 @@
         MOUSE {
             bindings = <
 &trans       &trans       &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp LC(W)                         &kp LC(W)  &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &trans       &trans
-&lt 4 SPACE  &lt 3 SPACE  &mkp LCLK        &mkp RCLK          &mkp MCLK  &mkp RCLK      &trans  &mkp MCLK  &mkp LCLK        &mkp RCLK          &lt 3 SPACE  &lt 4 SPACE
+&lt 5 SPACE  &lt 3 SPACE  &mkp LCLK        &mkp RCLK          &mkp MCLK  &mkp RCLK      &trans  &mkp MCLK  &mkp LCLK        &mkp RCLK          &lt 3 SPACE  &lt 5 SPACE
 &trans       &trans       &trans           &trans             &trans     &mkp LCLK      &trans  &trans     &mkp MB4         &mkp MB5           &trans       &trans
 &trans       &trans       &trans           &trans             &trans     &trans         &trans  &trans                                                      &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
 
@@ -154,7 +163,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&none   &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
