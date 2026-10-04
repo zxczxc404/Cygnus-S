@@ -25,12 +25,12 @@
 
         lang1 {
             bindings = <&kp LANG1>;
-            key-positions = <12 13>;
+            key-positions = <18 19>;
         };
 
         lang2 {
             bindings = <&kp LANG2>;
-            key-positions = <18 19>;
+            key-positions = <12 13>;
         };
 
         tab {
